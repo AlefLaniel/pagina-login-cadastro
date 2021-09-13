@@ -1,0 +1,150 @@
+:root{
+    --font-color: #1877f2;
+    --font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f0f2f5;
+}
+
+.container{
+    display: flex;
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+.apresentacao{
+    padding-left: 190px;
+    padding-right: 90px;
+}
+
+.apresentacao .logo{
+    padding: 112px 0 16px;
+}
+
+.apresentacao img{
+    height: 106px;
+    margin: -28px;
+}
+
+.apresentacao h2{
+    font-family: var(--font-family);
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.form-login form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    padding: 20px 28px;
+    width: 396px;
+
+}
+
+
+
+
+
+.entradas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: var(--font-family);
+    
+}
+
+.entradas input,
+.form-login input,
+.botao-nova-conta{
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 365px;
+}
+
+.entradas input{
+    background-color: #fff;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    font-size: 20px;
+}
+
+.form-login .botao-entrar{
+    background-color: var(--font-color);
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid var(--font-color);
+}
+
+form .e-senha{
+    text-align: center;
+    text-decoration: none;
+    color: var(--font-color);
+    margin-bottom: 15px;
+}
+
+
+
+
+.botao-nova-conta{
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    width: 170px;
+    padding: 10px;
+}
+
+.botao-nova-conta a{
+    font-family: var(--font-family);
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+.linha{
+    height: 1px;
+    width: 365px;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 15px;
+    text-align: center;
+}
+
+.c-pagina{
+    margin-top: 35px;
+}
+
+.c-pagina a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.c-pagina a:hover{
+    text-decoration: underline;
+}
+
+footer{
+
+    text-align: center;
+    margin-bottom: 10px;
+}
+

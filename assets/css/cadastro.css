@@ -1,0 +1,218 @@
+:root{
+    --font-color: #1877f2;
+    --font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 112px;
+    padding-top: 72px;
+}
+
+.form-cadastro {
+    display: block;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 40px 0 0;
+    width: 432px;
+
+}
+
+.titulo{
+    padding: 16px 10px;
+}
+
+.titulo-cadastro,
+.sub-cadastro,
+.nascimento p,
+.p-genero,
+.sexo-feminino,
+.sexo-masculino,
+.sexo-personalizado{
+    font-family: var(--font-family);
+}
+
+.sub-cadastro{
+    margin-bottom: 15px;
+    color: #606770;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #dadde1;
+    padding: 10px 16px;
+}
+
+#nome,
+#sobrenome,
+#celular-email,
+#nova-senha,
+#dia,
+#mes,
+#ano
+{
+    border-radius: 8px;
+    background-color: #f5f6f7;
+}
+
+.nomes{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+#nome, #sobrenome{
+    
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    font-size: 20px;
+    padding: 10px 16px;
+    width: 195px;
+}
+
+#nome{
+    margin-right: 10px;
+}
+
+
+
+.contato input,
+.nova-senha input{
+    width: 400px;
+    -webkit-appearance: none;
+    border: 1px solid #ccd0d5;
+    font-size: 20px;
+    padding: 10px 16px;
+    margin-bottom: 10px;
+}
+
+#dia, #mes, #ano{
+    width: 125px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#mes, #ano
+{
+    margin-left: 8px;
+}
+
+
+.nascimento p,
+.p-genero {
+    color: #606770;
+    font-size: 12px;
+    
+}
+
+.genero{
+    display: flex;
+}
+
+.sexo-masculino,
+.sexo-personalizado{
+    margin-left: 13px;
+}
+
+.sexo-feminino,
+.sexo-masculino,
+.sexo-personalizado{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #dadde1;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    
+}
+
+.sexo-masculino {
+    padding: 12px 10px 12px 12px;
+}
+
+.sexo-feminino{
+    width: 110px;
+}
+
+.sexo-masculino{
+    width: 120px;
+}
+
+.sexo-personalizado{
+    width: 145px;
+}
+
+.termos{
+    color: #777777;
+    font-size: 10px;
+    font-family: var(--font-family);
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.input-cadastre-se{
+    position: relative;
+
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    font-family: var(--font-family);
+    padding: 10px 32px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #00a400;
+    background-color: #00a400;
+    
+}
+
+form [type="submit"] {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 375px) {
+    
+    .form-cadastro{
+        width: 370px;
+        margin: auto;
+        margin-left: 8px;
+        margin-right: 10px;
+    }
+
+    #nome, #sobrenome{
+        width: 165px;
+    }
+
+    .contato input,
+    .nova-senha input{
+        width: 340px;
+    }
+
+    #dia, #mes, #ano{
+        width: 100px;
+    }
+
+    #mes, #ano
+{
+    margin-left: 15px;
+}
+
+.sexo-feminino,
+.sexo-masculino,
+.sexo-personalizado{
+    font-size: 13px;
+    padding: 10px;
+}
+
+}
