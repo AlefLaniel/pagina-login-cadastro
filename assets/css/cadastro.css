@@ -215,4 +215,10 @@ form [type="submit"] {
     padding: 10px;
 }
 
+@media (max-width: 600px) {
+    footer{
+        margin-left: 5px;    
+    }
+}
+
 }

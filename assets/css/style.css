@@ -148,3 +148,29 @@ footer{
     margin-bottom: 10px;
 }
 
+@media (max-width: 600px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 160px;
+    }
+
+    .apresentacao .logo{
+        padding: 112px 0 16px 0;
+        
+    }
+
+    .apresentacao h2{
+        width: 396px;
+    }
+
+    .apresentacao .logo,
+    .apresentacao h2{
+        margin-left: -85px;
+    }
+
+    footer{
+        margin-left: 160px;
+    }
+}
